@@ -7,7 +7,7 @@ def calculate_mdcat_merit(mdcat_score, total_mdcat_marks, intermediate_percentag
     mdcat_merit = (mdcat_score / total_mdcat_marks) * 50 + (intermediate_percentage * 0.4) + (matriculation_percentage * 0.1)
     return mdcat_merit
 
-st.title("🎓MERIT CALCULATOR FOR MDCAT🎓")
+st.title("🎓MERIT CALCULATOR FOR MDCAT")
 #merit= st.text_input("Enter this years MERIT")
 st.write('This app is created and deployed by Siddique_Ali khan for just Educational Purpose All Rights Are Reserved ✔️ for the year of 🔴2k23-2k24🔴')
 total_mdcat_marks = st.text_input("Enter TOTAL MDCAT Marks")
